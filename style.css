@@ -1,0 +1,61 @@
+body {
+  margin: 0px;
+  background-color: #000000;
+}
+h2 {
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 25px;
+}
+.bmwsvg {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border: 1px solid gray;
+}
+.st0 {
+  fill: #F2F2F2;
+}
+.st1 {
+  fill: #ffb83650;
+
+}
+
+.st2 {
+  fill: #ffe302;
+  filter: url(#yellow-glow);
+}
+
+.st3 {
+  fill: #9ea5b2;
+
+}
+
+.bmwsvg:hover .st1{
+  /* fill: #9999dd; */
+  fill: #ffb836;
+  filter: url(#orange-glow);
+  animation: fadeIn 1s ease-in infinite alternate;
+}
+.bmwsvg:hover .st2{
+  /* fill: #9999dd; */
+  filter: url(#yellow-glow);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.st1 {
+
+
+}
